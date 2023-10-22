@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyshared"
+version = "0.1.0"
+description = "Py Explorer Shared Library"
+authors = ["zhiyi zhang <zhiyi.zhang@hotmail.com>"]
+packages = [
+    {include = "regexutils"}
+]
+#readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pynum = "^0.0.1"
+pendulum = "^2.1.2"
+regex = "^2023.10.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.10.0"
+ruff = "^0.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
