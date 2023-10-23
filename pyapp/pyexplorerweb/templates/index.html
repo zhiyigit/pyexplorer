@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alpha Numeric Form</title>
+</head>
+<body>
+    <h1>Alpha Numeric Form</h1>
+    <form method="POST">
+        <label for="user_input">Check alpha-numeric</label>
+        <input type="text" id="user_input" name="user_input" required>
+        <button type="submit">Submit</button>
+    </form>
+    {% if response %}
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
