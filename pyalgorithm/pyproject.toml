@@ -2,7 +2,7 @@
 name = "pyalgorithm"
 version = "0.1.0"
 description = ""
-authors = ["zhiyi zhang <zhiyi.zhang@hotmail.com>"]
+authors = ["zhiyi zhang <zhiyi.zhang@rocketmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

@@ -2,7 +2,7 @@
 name = "pyshared"
 version = "0.1.0"
 description = "Py Explorer Shared Library"
-authors = ["zhiyi zhang <zhiyi.zhang@hotmail.com>"]
+authors = ["zhiyi zhang <zhiyi.zhang@rocketmail.com>"]
 packages = [
     {include = "regexutils"}
 ]
